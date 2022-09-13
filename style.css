@@ -58,12 +58,14 @@ h1{
 .Me {
     display: inline-flex;
     text-align: left ;
-    align-items:top;
     margin-right: 20px;
     margin-top: 40px;
     border-left:solid white 5px;
+    align-items: top;
+}
 
-    
+p {
+    margin-top: 200px;
 }
 
 article img{
