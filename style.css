@@ -103,6 +103,7 @@ h2{
     text-decoration: underline white 2px;
     text-underline-offset: 20px;
     margin-top: 5px;
+    background-image: url(./yellow.jfif);
 }
 #hori{
     margin-top: 0px;
@@ -110,6 +111,8 @@ h2{
     color: #c3073f;
     text-decoration: underline white 2px;
     text-underline-offset: 20px;
+    background-image: url(./blue\ back.jpg);
+
 }
 
 #css{
@@ -119,6 +122,8 @@ h2{
     text-underline-offset: 20px;
     width:50px;
     margin-top: 5px;
+    background-image: url(./green.jfif);
+    
 }
 
 .footer ul{
@@ -130,3 +135,17 @@ h2{
     padding: 0px;
     border-top: solid white 5px;
 }
+
+
+
+@media only screen and (min-width: 998px) {
+ html{
+    display:flex-shrink: ;
+    /*i have no idea how to set the media querys to shrink the page to proper size according to screen :( */
+}
+}
+@media only screen and (min-width: 768px) {
+        html{
+            display: flex-shrink;
+        }
+    }
